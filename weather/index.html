@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body"> 
+    <div id="head">
+        <h1 >Weather web</h1> <marquee behavior="" direction="right">
+<h3>Search about the weather of your area</h3></marquee>
+    </div>
+<br>
+<form  onsubmit="getWeather(event)"> 
+    <input placeholder="enter city name" type="search" id="search"> <br>
+    <button type="submit" id="submit" > SEARCH</button>
+    
+</form>
+<p id="p">  </p>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEATHER HUB</title>
+</head>
+<body id="body"> 
+    <header id="head">
+        <h1>WEATHER HUB</h1>
+        <marquee behavior="" direction="right">
+            <h3>Search about the weather of your area</h3>
+        </marquee>
+    </header>
+
+    <main>
+        <form onsubmit="getWeather(event)"> 
+            <input placeholder="Enter city name" type="search" id="search"> <br> <br>
+            <button type="submit" id="submit">SEARCH</button>
+        </form>
+        <p id="p"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Muddassir Akhter. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

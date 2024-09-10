@@ -1,0 +1,268 @@
+/* 
+  
+  #P{
+    display: flex;
+position: relative;left: 600px;
+text-align: center;
+box-shadow: 0 0 30px;
+    
+}
+#search{
+display: flex;
+
+box-shadow: 0 0 30px;
+}
+#submit{
+    
+    border-radius: 20px;  
+}
+#head{
+    
+font-family: 'Times New Roman', Times, serif;
+background-color: beige;
+border-radius: 30px;
+
+/* margin-bottom: 40px; */
+/* margin-top: -9px;
+padding-bottom: 5px;
+position: relative;
+text-align: center;
+}
+#body{
+background-color: #E9967A;
+
+}
+@media (max-width: 768px) {
+    .slide {
+      max-width: 90%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .slide {
+      max-width: 100%;
+    }
+  }
+   */ 
+
+   /* Reset some default styles and add a basic style */
+/* body, h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#head {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+#submit {
+    background-color: #131614;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    background-color: #599ac5;
+}
+
+#p {
+    margin-top: 20px;
+} */
+
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries for responsiveness */
+/* @media only screen and (max-width: 600px) {
+    #head {
+        font-size: 80%;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #submit {
+        width: 100%;
+    }
+} */ 
+
+/* Global Reset */
+body, h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header Styling */
+#head {
+    background: linear-gradient( rgb(44, 43, 43) ,rgb(116, 116, 218));
+    color: white;
+    text-align: center;
+    padding: 1em;
+    animation: slideIn 1s ease-out;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(221, 216, 216, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Form Styling */
+form {
+    text-align: center;
+}
+
+/* Button Styling */
+#submit {
+    background-color: #131614;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#submit:hover {
+    background-color: #599ac5;
+    transform: scale(1.05);
+}
+
+#submit:focus {
+    outline: 2px solid #599ac5;
+    outline-offset: 2px;
+}
+
+/* Paragraph Styling */
+#p {
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-out;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets and small screens */
+@media only screen and (max-width: 768px) {
+    #head {
+        font-size: 90%;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    #submit {
+        width: 50%;
+        font-size: 14px;
+    }
+}
+
+/* Large phones and smaller tablets */
+@media only screen and (max-width: 600px) {
+    #head {
+        font-size: 80%;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #submit {
+        width: 50%;
+        font-size: 14px;
+    }
+}
+
+/* Small phones and very small screens */
+@media only screen and (max-width: 400px) {
+    #head {
+        font-size: 70%;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    #submit {
+        width: 30%;
+        font-size: 12px;
+    }
+}
+
